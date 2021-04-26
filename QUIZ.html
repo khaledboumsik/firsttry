@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="QUIZ.css" rel="stylesheet">
+  <script defer src="QUIZ.js"></script>
+  <title>Quiz App</title>
+</head>
+<body>
+<nav style="padding:0%;" class="navbar navbar-expand-lg navbar-light bg-light">
+        <div style="background-color: #003b6d;" class="container-fluid">
+          <a style="color: white;" class="navbar-brand" href="#">Wanderes</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a style="color: white;" class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/FB.html?#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a style="color: white;" class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a style="color: white;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Who are we ?
+                </a>
+                <ul style="background-color: #003b6d;" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a style="color: white; background-color: #003b6d;" class="dropdown-item" href="http://127.0.0.1:5500/about-us.html">About us</a></li>
+                  <li><a style="color: white; background-color: #003b6d" class="dropdown-item" href="http://127.0.0.1:5500/contact-us.html">Contact us</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a style="color: white; background-color: #003b6d;" class="dropdown-item" href="http://127.0.0.1:5500/why-us.html">Why us</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a style="color: green;" class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/QUIZ.html">Quiz</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Find our projects" aria-label="Search">
+              <button style="color: white;" class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div> 
+        </div>
+</nav>
+  <div class="container">
+    <div id="question-container" class="hide">
+      <div id="question">Question</div>
+      <div id="answer-buttons" class="btn-grid">
+        <button class="btn">Answer 1</button>
+        <button class="btn">Answer 2</button>
+        <button class="btn">Answer 3</button>
+        <button class="btn">Answer 4</button>
+      </div>
+    </div>
+    <div class="controls">
+      <button id="start-btn" class="start-btn btn">Start</button>
+      <button id="next-btn" class="next-btn btn hide">Next</button>
+    </div>
+  </div></div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>
